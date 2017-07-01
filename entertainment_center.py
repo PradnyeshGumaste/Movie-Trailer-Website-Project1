@@ -42,7 +42,7 @@ def fetch_poster_image(movie_id,api_key):
 
 
 
-def get_movie_details(movie_id,api_key):
+def fetch_movie_details(movie_id,api_key):
     """
     This function fetches all the data of the movie and returns the data in the form of
     media.Movie() so that it can be directly stored into the movie variable Name
@@ -63,21 +63,21 @@ def get_movie_details(movie_id,api_key):
 
 
 
-Wonder_Woman =  get_movie_details("tt0451279","816d28a515c3309f8986ed251ad27336") #**Replace API key here
+Wonder_Woman =  fetch_movie_details("tt0451279","816d28a515c3309f8986ed251ad27336") #**Replace API key here
 
-Transformer_The_Last_Knight = get_movie_details("tt3371366","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
+Transformer_The_Last_Knight = fetch_movie_details("tt3371366","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
 
-Spiderman_Homecoming = get_movie_details("tt2250912","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
+Spiderman_Homecoming = fetch_movie_details("tt2250912","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
 
-Justice_League = get_movie_details("tt0974015","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
+Justice_League = fetch_movie_details("tt0974015","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
 
-The_Dark_Tower = get_movie_details("tt1648190","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
+The_Dark_Tower = fetch_movie_details("tt1648190","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
 
-Star_Wars_The_Last_Jedi = get_movie_details("tt2527336","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
+Star_Wars_The_Last_Jedi = fetch_movie_details("tt2527336","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
 
-The_Mummy = get_movie_details("tt2345759","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
+The_Mummy = fetch_movie_details("tt2345759","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
 
-Cars3 = get_movie_details("tt3606752","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
+Cars3 = fetch_movie_details("tt3606752","816d28a515c3309f8986ed251ad27336")  #**Replace API key here
 
 
 movies = [Wonder_Woman,Transformer_The_Last_Knight,Spiderman_Homecoming,Justice_League,The_Dark_Tower,Star_Wars_The_Last_Jedi,The_Mummy,Cars3]
